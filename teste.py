@@ -36,4 +36,6 @@ def simulate_logout_test():
     if response.status_code != 401:
         return "Sessão não foi encerrada corretamente"
 
+    return "Teste de logout simulado com sucesso!"
+
 simulate_logout_test()
